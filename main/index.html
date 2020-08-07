@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space X</title>
     <link rel="stylesheet" href="css/vidbg.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
@@ -12,7 +13,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down">
       <img src="img/logo.svg" alt="Logo Space X" class="logo" />
       <nav class="main-nav">
         <ul class="list">
@@ -46,8 +47,10 @@
     </header>
 
     <section class="main">
-      <h1 class="title">Falcon Heavy</h1>
-      <p class="description">
+      <h1 class="title" data-aos="fade-up" data-aos-delay="300">
+        Falcon Heavy
+      </h1>
+      <p class="description" data-aos="fade-up" data-aos-delay="600">
         The most powerful operational rocket in the world by a factor of two
       </p>
     </section>
@@ -56,11 +59,11 @@
 
     <section class="features">
       <div class="overview">
-        <h2 class="features-title">
+        <h2 class="features-title" data-aos="fade-right">
           Falcon Heavy <br />
           Overview
         </h2>
-        <table class="table">
+        <table class="table" data-aos="fade-right">
           <tr>
             <td class="table-column">HEIGHT</td>
             <td class="table-column">70 m / 229.6 ft</td>
@@ -92,11 +95,11 @@
           class="rocket"
           data-rellax-speed="22"
         />
-        <h2 class="features-title">
+        <h2 class="features-title" data-aos="fade-right">
           UNMATCHED <br />
           PERFORMANCE
         </h2>
-        <p class="features-text">
+        <p class="features-text" data-aos="fade-right">
           With more than 5 million pounds of thrust at liftoff, Falcon Heavy is
           the most capable rocket flying. By comparison, the liftoff thrust of
           the Falcon Heavy equals approximately eighteen 747 aircraft at full
@@ -106,7 +109,7 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-delay="300">
       <img src="img/logo.svg" alt="logo Space X" class="logo" />
       <nav class="footer-nav">
         <ul class="list">
@@ -131,6 +134,7 @@
 
     <script src="js/vidbg.js"></script>
     <script src="js/rellax.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
