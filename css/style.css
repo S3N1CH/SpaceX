@@ -62,8 +62,9 @@ body {
 .video {
   max-width: 1230px;
   width: 90%;
-  margin: auto;
   height: 750px;
+  margin: auto;
+  max-height: 750px;
 }
 .features {
   max-width: 1230px;
@@ -235,6 +236,10 @@ body {
     display: block;
     margin: auto;
     margin-bottom: 30px;
+  }
+  .video {
+    margin: auto;
+    height: 500px;
   }
   .table {
     margin-bottom: 0;
